@@ -18,5 +18,72 @@
     box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
     padding: 20px 30px;
     margin: 10px;
-
 }
+
+.box-column{
+    flex-direction: column;
+}
+.box-row{
+    flex-direction: row;
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text] {
+    width: 130%;
+    padding: 12px 20px;
+    margin: 8px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-color: rgb(218, 203, 203);
+  }
+
+  input[type=email] {
+    width: 130%;
+    padding: 12px 20px;
+    margin: 8px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-color: rgb(218, 203, 203);
+  }
+
+  input[type=password] {
+    width: 130%;
+    padding: 12px 20px;
+    margin: 8px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-color: rgb(218, 203, 203);
+  }
+  input[type=number] {
+    width: 130%;
+    padding: 12px 20px;
+    margin: 8px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-color: rgb(218, 203, 203);
+  }
+
+  .my-5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .wid-300{
+    width: 300px;
+  }
+
+  h1{
+      margin: 5px;
+      opacity: 0.7;
+  }
+  h3{
+      opacity: 0.6;
+  }
